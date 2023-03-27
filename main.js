@@ -18,7 +18,7 @@ function draw() {
      
       if(status != "")
       {
-        for (i = 0; i < objects.length; i++)
+        for (i = 0; i < object.length; i++)
         {
             document.getElementById("status").innerHTML = "Status : Object Detected";
             
